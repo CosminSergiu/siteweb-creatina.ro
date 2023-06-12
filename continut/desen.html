@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Desen</title>
+
+</head>
+
+<body>
+
+  <svg viewBox="0 0 200 100">
+    <rect x="20" y="20" width="160" height="60" rx="10" fill="red" />
+    <text x="50%" y="50%" fill="gray" font-size="20" text-anchor="middle" alignment-baseline="middle"
+      id="text">CREATINA</text>
+    <rect id="cap" x="25" y="15" width="150" height="15" rx="3" fill="black" />
+    <animate attributeType="XML" attributeName="y" from="15" to="-5" begin="mouseover" dur="0.3s" fill="freeze"
+      xlink:href="#cap" />
+    <animate attributeType="XML" attributeName="visibility" from="visible" to="hidden" begin="mouseover" dur="0.3s"
+      fill="freeze" xlink:href="#text" />
+    <animate attributeType="XML" attributeName="visibility" from="hidden" to="visible" begin="mouseout" dur="0.3s"
+      fill="freeze" xlink:href="#text" />
+  </svg>
+
+
+</html>

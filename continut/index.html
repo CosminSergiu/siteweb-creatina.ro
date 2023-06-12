@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+
+<head>
+  <title>Creatina.ro</title>
+  <meta charset="UTF-8">
+  <link href="./CSS/stil.css" rel="stylesheet">
+  <script src="./JS/script.js"></script>
+  <script src="./JS/cumparaturi.js"></script>
+
+</head>
+
+<body  onload="setInterval(sectiune1, 1000),  sectiunea1L()">
+<details>
+  <summary></summary>
+  <nav class="menu">
+    <a id="acasa" onclick="schimbaContinut('acasa')"><img src="./IMAGINI/home.png" />Acasă</a> 
+    <a id="conectare" onclick="schimbaContinut('verifica')" ><img src="./IMAGINI/login.png" />Log in</a>
+    <a id="inregistreaza" onclick="schimbaContinut('inregistreaza')"><img src="./IMAGINI/signup.png" />Înregistrează</a>
+    <a id="despre" onclick="schimbaContinut('despre')"><img class="about" src="./IMAGINI/about.png"  />Despre</a> 
+    <a id="video" onclick="schimbaContinut('video')"><img class="about" src="./IMAGINI/video.png" />Video</a> 
+    <a id="invat" onclick="schimbaContinut('invat')"><img class="learn" src="./IMAGINI/learn.png"  />Invăț</a> 
+    <a id="persoane" onclick="schimbaContinut('persoane', './JS/persoane.js', 'incarcaPersoane')"><img src="./IMAGINI/users.png" />Membrii</a>
+    <a id="invat" onclick="schimbaContinut('cumparaturi')"><img class="learn" src="./IMAGINI/shop.png"  />Cumpărături</a> 
+
+    
+  </nav>
+  </details>
+  <main id="continut">
+    
+  </main>
+  <hr>
+  <footer>
+    <p>&copy;<a href="https://www.instagram.com/cosmin_sergiu27/"> Milica Cosmin-Sergiu</a> <br>
+    <div style="width: 100%"><iframe class="map" width="100%" height="200"  src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=tecuci+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+  </footer>
+
+</body>
+
+</html>

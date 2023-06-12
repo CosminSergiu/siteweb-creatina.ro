@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <persoane>
+        <persoana id="1">
+            <nume>Popescu</nume>
+            <prenume>Ion</prenume>
+            <varsta>23</varsta>
+            <adresa>
+                <tara>Romania</tara>
+                <judet>Iasi</judet>
+                <localitate>Iasi</localitate>
+                <strada>Decebal</strada>
+                <numar>43</numar>
+            </adresa>
+            <job>Profesor</job>
+            <studii>
+                <universitate>UAIC</universitate>
+                <liceu>CNCH</liceu>
+            </studii>
+            <stareCivila>Divortat</stareCivila>
+        </persoana>
+        <persoana id="2">
+            <nume>Leonte</nume>
+            <prenume>Rares</prenume>
+            <varsta>21</varsta>
+            <adresa>
+                <tara>Romania</tara>
+                <judet>Iasi</judet>
+                <localitate>Iasi</localitate>
+                <strada>Soarelui</strada>
+                <numar>3</numar>
+            </adresa>
+            <job>Inginer</job>
+            <studii>
+                <universitate>TUIASI</universitate>
+                <liceu>CNER</liceu>
+            </studii>
+            <stareCivila>Vaduv</stareCivila>
+        </persoana>
+        <persoana id="3">
+            <nume>Popa</nume>
+            <prenume>Valentin</prenume>
+            <varsta>25</varsta>
+            <adresa>
+                <tara>Romania</tara>
+                <judet>Iasi</judet>
+                <localitate>Iasi</localitate>
+                <strada>Esecului</strada>
+                <numar>1</numar>
+            </adresa>
+            <job>Pompier</job>
+            <studii>
+                <universitate>NU</universitate>
+                <liceu>CN</liceu>
+            </studii>
+            <stareCivila>Necasatorit</stareCivila>
+        </persoana>
+    </persoane>

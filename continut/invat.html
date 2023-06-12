@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<html lang="ro-RO">
+
+<head>
+    <title>Invaț</title>
+    <meta charset="UTF-8">
+    <link href="./CSS/stil.css" rel="stylesheet">
+    <script src="./JS/script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body >
+
+    <header class="titluPrincipal"><img class="logo" src="./IMAGINI/logo.png" height="100" />Invăț</header>
+    <hr>
+    <section>
+        <h2>Informații sistem </h2>
+        <p id="ora"></p>
+        <p id="url"></p>
+        <p id="browser"></p>
+        <p id="locatie"></p>
+        <p id="os"></p>
+    </section>
+    <section>
+        <h2>Hai să desenăm in recipient de creatina!</h2>
+        <p>Alege culoarea</p>
+        <input type="color" id="color1" name="favcolor" value="#100000" height="40px"><br />
+
+        <canvas id="canvas" width="500" height="500" style="border:1px solid #d3d3d3;"
+            onclick="sectiune2(event)"></canvas>
+    </section>
+    <section>
+        <table id="myTable">
+            <tr>
+                <th>Tip</th>
+                <th>Beneficii </th>
+                <th>Efecte adverse </th>
+            </tr>
+            <tr>
+                <td><strong>Monohidrat</strong></td>
+                <td>Masă musculară îmbunătățită, creșterea randamentului puterii;</td>
+                <td>Luarea în greutate;</td>
+            </tr>
+            <tr>
+                <td><strong>Alcalin</strong></td>
+                <td>Creșterea cantitații de fosfocreatină din mușchi;</td>
+                <td>Afecteaza rinichii, în cazul unor boli cronice;</td>
+            </tr>
+            <tr>
+                <td><strong>Clorhidrat</strong></td>
+                <td>Nu genereaza retenție de apă în corp;</td>
+                <td>Nu prezintă;</td>
+            </tr>
+        </table>
+
+        <label for="insertRowPosition">Linia de inserat:</label>
+        <input type="text" id="insertRowPosition"><br>
+
+        <label for="insertColumnPosition">Coloana de inserat:</label>
+        <input type="text" id="insertColumnPosition"><br>
+
+        <label for="rowColor">Culoare linie:</label>
+        <input type="color" id="rowColor"><br>
+
+        <label for="columnColor">Culoare coloană:</label>
+        <input type="color" id="columnColor"><br>
+
+        <button onclick="insertRow()">Inserare linie</button>
+        <button onclick="insertColumn()">Inserare coloană</button>
+    </section>
+
+</body>
+
+</html>

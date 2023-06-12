@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+
+<head>
+    <title>Cumparaturi</title>
+    <meta charset="UTF-8">
+    <link href="./CSS/stil.css" rel="stylesheet">
+    <script src="./JS/script.js"></script>
+    <script src="./JS/cumparaturi.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+    <header class="titluPrincipal"><img class="logo" src="./IMAGINI/logo.png" height="100" />Cumpărături
+    </header>
+    <hr>
+    <form id="adaugaProdus">
+        <label for="nume">Nume produs:</label>
+        <input type="text" id="nume" />
+        <label for="cantitate">Cantitate:</label>
+        <input type="number" id="cantitate" />
+        <button class="buton" type="button" onclick="adaugaProduse()">Adaugă</button>
+        <button class="buton" type="button" onclick="afiseazaProduse()">Lista</button>
+    </form>
+    <h3>Optiunei de salvare:</h3><br>
+
+    <input id="optiune" type="checkbox" name="option1" value="option1">
+    IndexedDB:
+    <br>
+    
+    <input id="optiune" type="checkbox" name="option1" value="option1">
+    Local Storage:
+    
+
+    <h3>Listă cumpărături: </h3>
+    <table id="listaCumparaturi">
+        <tr>
+            <th>Nr.</th>
+            <th>Produs</th>
+            <th>Cantitate</th>
+        </tr>
+        <tbody id="listaCumparaturiBody"></tbody>
+        <tr>
+
+        </tr>
+    </table>
+
+</body>
+
+</html>
